@@ -17,9 +17,9 @@ const Button = ({
   type = "button" 
 }: ButtonProps) => {
   const variants = {
-    primary: "bg-earth-tone text-white hover:bg-earth-tone-dark",
-    secondary: "bg-white text-earth-tone hover:bg-gray-100",
-    outline: "bg-transparent border border-muted-grey text-muted-grey hover:bg-muted-grey hover:text-white",
+    primary: "bg-primary text-white hover:bg-primary-dark",
+    secondary: "bg-secondary text-white hover:bg-secondary-dark",
+    outline: "bg-transparent border border-primary text-primary hover:bg-primary hover:text-white",
   };
 
   return (

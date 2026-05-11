@@ -8,7 +8,7 @@ const BannerCTA = () => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
-        className="bg-earth-tone text-white px-9 py-4 text-base font-semibold cursor-pointer rounded hover:bg-opacity-90 transition-all"
+        className="bg-primary text-white px-9 py-4 text-base font-semibold cursor-pointer rounded hover:bg-primary-dark transition-all"
       >
         Plan Trip
       </motion.button>
@@ -16,7 +16,7 @@ const BannerCTA = () => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         transition={{ type: "spring", stiffness: 400, damping: 17 }}
-        className="bg-muted-grey text-deep-charcoal px-9 py-4 text-base font-semibold cursor-pointer rounded hover:bg-opacity-80 transition-all"
+        className="bg-secondary text-white px-9 py-4 text-base font-semibold cursor-pointer rounded hover:bg-secondary-dark transition-all"
       >
         Explore More
       </motion.button>

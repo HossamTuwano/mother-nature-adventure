@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #a57650;       /* Earthy Brown */
+  --color-primary-dark: #8a6342;
+  
+  --color-secondary: #555e3f;     /* Moss Green */
+  --color-secondary-dark: #444b33;
+  
+  --color-accent: #d58c02;        /* Golden Amber */
+  --color-accent-dark: #b87a02;
+  
+  --color-deep-earth: #59320a;    /* Dark Wood/Soil */
+  --color-deep-earth-dark: #402407;
+
+  --color-muted-grey: #9ca3af;    /* Standard grey for subtle text */
+  --color-deep-charcoal: #1f2937; /* Darkest text */
+}

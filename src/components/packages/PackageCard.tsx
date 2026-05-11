@@ -27,13 +27,13 @@ const PackageCard = ({ title, description, price, features, image }: PackageCard
       />
       
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
+        <h3 className="text-xl font-bold text-deep-charcoal mb-2">{title}</h3>
         <p className="text-muted-grey text-sm mb-4 flex-grow">{description}</p>
         
         <div className="space-y-2 mb-6">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center gap-2 text-xs text-gray-600">
-              <span className="text-earth-tone">✓</span> {feature}
+              <span className="text-primary">✓</span> {feature}
             </div>
           ))}
         </div>
@@ -41,7 +41,7 @@ const PackageCard = ({ title, description, price, features, image }: PackageCard
         <div className="flex items-center justify-between mt-auto">
           <div className="flex flex-col">
             <span className="text-xs text-muted-grey uppercase font-semibold">Starting from</span>
-            <span className="text-2xl font-bold text-earth-tone">${price}</span>
+            <span className="text-2xl font-bold text-primary">${price}</span>
           </div>
           <Button text="View Details" variant="outline" />
         </div>
