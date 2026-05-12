@@ -1,0 +1,1 @@
+Images indexed in session context for Planner UI

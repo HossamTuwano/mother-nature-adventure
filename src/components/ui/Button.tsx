@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 
 interface ButtonProps {
@@ -9,17 +8,18 @@ interface ButtonProps {
   type?: "button" | "submit" | "reset";
 }
 
-const Button = ({ 
-  text, 
-  onClick, 
-  variant = "primary", 
-  className = "", 
-  type = "button" 
+const Button = ({
+  text,
+  onClick,
+  variant = "primary",
+  className = "",
+  type = "button",
 }: ButtonProps) => {
   const variants = {
     primary: "bg-primary text-white hover:bg-primary-dark",
     secondary: "bg-secondary text-white hover:bg-secondary-dark",
-    outline: "bg-transparent border border-primary text-primary hover:bg-primary hover:text-white",
+    outline:
+      "bg-transparent border border-primary text-primary hover:bg-primary hover:text-white",
   };
 
   return (

@@ -2,17 +2,31 @@ import { useState } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { motion, AnimatePresence } from "motion/react";
 import logo from "../../assets/logo.png";
+import NavDropdown from "../nav/NavDropdown";
+import { TREKKING_DATA, MOUNT_KILI_DATA, DESTINATIONS_DATA } from "../nav/navData";
 
 const BannerHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const navLinks = [
-    { name: "Home", active: true },
-    { name: "Safaris", active: false },
-    { name: "Mount Trekking", active: false, hasDropdown: true },
-    { name: "Destinations", active: false, hasDropdown: true },
-    { name: "Zanzibar", active: false },
+    { id: 'home', name: "Home", active: true },
+    { id: 'safaris', name: "Safaris", active: false },
+    { id: 'trekking', name: "Mount Trekking", active: false, hasDropdown: true, data: TREKKING_DATA },
+    { id: 'destinations', name: "Destinations", active: false, hasDropdown: true, data: DESTINATIONS_DATA },
+    { id: 'kili', name: "Mount Kilimanjaro", active: false, hasDropdown: true, data: MOUNT_KILI_DATA },
+    { id: 'zanzibar', name: "Zanzibar", active: false },
   ];
+
+  const handleMouseEnter = (id: string) => {
+    setActiveDropdown(id);
+  };
+
+  const handleMouseLeave = () => {
+    setTimeout(() => {
+      setActiveDropdown(null);
+    }, 150);
+  };
 
   return (
     <>
@@ -33,21 +47,36 @@ const BannerHeader = () => {
           <div className="flex items-center gap-2 mr-10"></div >
 
           {navLinks.map((link, index) => (
-            <motion.a
-              key={link.name}
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.1 * index }}
-              href="#"
-              className={`text-sm font-medium flex items-center gap-1 transition-colors ${
-                link.active
-                  ? "text-earth-tone"
-                  : "text-muted-grey hover:text-earth-tone"
-              }`}
+            <div 
+              key={link.name} 
+              className="relative"
+              onMouseEnter={() => link.hasDropdown && handleMouseEnter(link.id)}
+              onMouseLeave={handleMouseLeave}
             >
-              {link.name}
-              {link.hasDropdown && <span className="text-[10px]">▼</span>}
-            </motion.a>
+              <motion.a
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.1 * index }}
+                href="#"
+                className={`text-sm font-medium flex items-center gap-1 transition-colors ${
+                  link.active || activeDropdown === link.id
+                    ? "text-[#a57650]"
+                    : "text-muted-grey hover:text-[#a57650]"
+                }`}
+              >
+                {link.name}
+                {link.hasDropdown && <span className="text-[10px]">▼</span>}
+              </motion.a>
+              
+              {link.hasDropdown && (
+                <NavDropdown 
+                  title={link.name}
+                  data={link.data}
+                  isOpen={activeDropdown === link.id}
+                  onClose={() => setActiveDropdown(null)}
+                />
+              )}
+            </div>
           ))}
         </nav>
 
@@ -88,8 +117,8 @@ const BannerHeader = () => {
                   onClick={() => setIsOpen(false)}
                   className={`text-sm font-medium flex items-center gap-1 transition-colors ${
                     link.active
-                      ? "text-earth-tone"
-                      : "text-muted-grey hover:text-earth-tone"
+                      ? "text-[#a57650]"
+                      : "text-muted-grey hover:text-[#a57650]"
                   }`}
                 >
                   {link.name}
