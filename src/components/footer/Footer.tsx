@@ -54,7 +54,9 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-full" />
+              <div className="w-10 h-10 bg-deep-earth rounded-full">
+                <img src="/src/assets/logo.png" className="w-full h-full rounded-full" alt="Logo" />
+              </div>
               <span className="text-2xl font-bold text-white tracking-tight">
                 Mother Nature <span className="text-primary">Adventures</span>
               </span>

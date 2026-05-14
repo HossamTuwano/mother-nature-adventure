@@ -9,10 +9,7 @@ interface NavDropdownProps {
   onClose: () => void;
 }
 
-const NavDropdown: React.FC<NavDropdownProps> = ({
-  data,
-  isOpen,
-}) => {
+const NavDropdown: React.FC<NavDropdownProps> = ({ data, isOpen }) => {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -21,9 +18,9 @@ const NavDropdown: React.FC<NavDropdownProps> = ({
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 10, scale: 0.98 }}
           transition={{ duration: 0.2, ease: "easeOut" }}
-          className="absolute top-full left-0 w-[600px] bg-white shadow-2xl rounded-2xl border border-gray-100 overflow-hidden z-50"
+          className="pointer-events-auto absolute top-6 left-1/2 -translate-x-1/2 w-[95vw] max-w-7xl bg-white shadow-2xl rounded-2xl border border-gray-100 overflow-hidden z-50"
         >
-          <div className="p-8 grid grid-cols-2 gap-x-12 gap-y-10">
+          <div className="p-8 grid grid-cols-2 gap-x-16 gap-y-6">
             {data.map((section, idx) => (
               <div key={idx} className="space-y-4">
                 <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
@@ -38,12 +35,12 @@ const NavDropdown: React.FC<NavDropdownProps> = ({
                       >
                         <div className="shrink-0 w-12 h-12 bg-gray-100 rounded-lg overflow-hidden">
                           <img
-                            src={`https://via.placeholder.com/50?text=img`}
-                            alt=""
+                            src={link.image || `https://via.placeholder.com/50?text=img`}
+                            alt={link.label}
                             className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity"
                           />
                         </div>
-                        <div>
+                        <div className="flex-1">
                           <span className="block font-semibold text-gray-800 group-hover:text-primary transition-colors">
                             {link.label}
                           </span>

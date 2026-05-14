@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { motion } from "motion/react";
 import NavDropdown from "./NavDropdown";
 import { TREKKING_DATA, MOUNT_KILI_DATA, DESTINATIONS_DATA } from "./navData";
 
 const Navbar: React.FC = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const navItems = [
     { id: "trekking", label: "Mount Trekking", data: TREKKING_DATA },
@@ -12,22 +13,21 @@ const Navbar: React.FC = () => {
     { id: "destinations", label: "Destinations", data: DESTINATIONS_DATA },
   ];
 
-  // a "Safe Zone" logic to prevent accidental closing when moving mouse to dropdown
   const handleMouseEnter = (id: string) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setActiveDropdown(id);
   };
 
   const handleMouseLeave = () => {
-    // a slight delay to allow user to transition to the dropdown box
-    setTimeout(() => {
+    timeoutRef.current = setTimeout(() => {
       setActiveDropdown(null);
-    }, 150);
+    }, 200);
   };
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 px-6 py-4">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo Placeholder */}
+      <div className="max-w-7xl mx-auto flex items-center justify-between relative">
+        {/* Logo */}
         <div className="flex items-center gap-2 cursor-pointer">
           <div className="w-8 h-8 bg-primary rounded-full" />
           <span className="text-xl font-bold tracking-tight text-gray-900">
@@ -35,14 +35,16 @@ const Navbar: React.FC = () => {
           </span>
         </div>
 
-        {/* Nav Links */}
-        <div className="hidden md:flex items-center gap-8">
+        {/* Nav Links Wrapper */}
+        <div
+          className="hidden md:flex items-center gap-8"
+          onMouseLeave={handleMouseLeave}
+        >
           {navItems.map((item) => (
             <div
               key={item.id}
               className="relative"
               onMouseEnter={() => handleMouseEnter(item.id)}
-              onMouseLeave={handleMouseLeave}
             >
               <motion.a
                 href="#"
@@ -54,14 +56,6 @@ const Navbar: React.FC = () => {
               >
                 {item.label}
               </motion.a>
-
-              {/* The actual dropdown component */}
-              <NavDropdown
-                title={item.label}
-                data={item.data}
-                isOpen={activeDropdown === item.id}
-                onClose={() => setActiveDropdown(null)}
-              />
             </div>
           ))}
         </div>
@@ -75,6 +69,24 @@ const Navbar: React.FC = () => {
           >
             Plan a Trip
           </motion.button>
+        </div>
+
+        {/* THE MEGA MENU */}
+        <div
+          className="absolute top-full left-1/2 -translate-x-1/2 w-full flex justify-center pointer-events-none"
+          onMouseEnter={() => {
+            if (timeoutRef.current) clearTimeout(timeoutRef.current);
+          }}
+          onMouseLeave={handleMouseLeave}
+        >
+          <NavDropdown
+            data={
+              navItems.find((item) => item.id === activeDropdown)?.data || []
+            }
+            isOpen={activeDropdown !== null}
+            onClose={() => setActiveDropdown(null)}
+            title={""}
+          />
         </div>
       </div>
     </nav>
