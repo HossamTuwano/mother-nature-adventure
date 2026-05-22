@@ -3,8 +3,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaTwitter,
-  FaLinkedinIn,
-  FaArrowUp,
+  FaLinkedinIn, FaArrowLeft
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -144,7 +143,7 @@ const Footer = () => {
                 whileTap={{ scale: 0.95 }}
                 className="w-full py-4 bg-primary text-white font-bold rounded-xl hover:bg-[#8e6343] transition-all shadow-xl flex items-center justify-center gap-2"
               >
-                Plan Your Trip <FaArrowUp className="-rotate-45 -rotate-90" />
+                Plan Your Trip <FaArrowLeft />
               </motion.button>
             </div>
           </div>

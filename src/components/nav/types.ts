@@ -2,6 +2,7 @@ export interface NavLink {
   label: string;
   path: string;
   description: string;
+  image: string
 }
 
 export interface NavCategory {

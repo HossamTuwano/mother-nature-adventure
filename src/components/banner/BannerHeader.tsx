@@ -3,19 +3,41 @@ import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { motion, AnimatePresence } from "motion/react";
 import logo from "../../assets/logo.png";
 import NavDropdown from "../nav/NavDropdown";
-import { TREKKING_DATA, MOUNT_KILI_DATA, DESTINATIONS_DATA } from "../nav/navData";
+import {
+  TREKKING_DATA,
+  MOUNT_KILI_DATA,
+  DESTINATIONS_DATA,
+} from "../nav/navData";
 
 const BannerHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const navLinks = [
-    { id: 'home', name: "Home", active: true },
-    { id: 'safaris', name: "Safaris", active: false },
-    { id: 'trekking', name: "Mount Trekking", active: false, hasDropdown: true, data: TREKKING_DATA },
-    { id: 'destinations', name: "Destinations", active: false, hasDropdown: true, data: DESTINATIONS_DATA },
-    { id: 'kili', name: "Mount Kilimanjaro", active: false, hasDropdown: true, data: MOUNT_KILI_DATA },
-    { id: 'zanzibar', name: "Zanzibar", active: false },
+    { id: "home", name: "Home", active: true },
+    { id: "safaris", name: "Safaris", active: false },
+    {
+      id: "trekking",
+      name: "Mount Trekking",
+      active: false,
+      hasDropdown: true,
+      data: TREKKING_DATA,
+    },
+    {
+      id: "destinations",
+      name: "Destinations",
+      active: false,
+      hasDropdown: true,
+      data: DESTINATIONS_DATA,
+    },
+    {
+      id: "kili",
+      name: "Mount Kilimanjaro",
+      active: false,
+      hasDropdown: true,
+      data: MOUNT_KILI_DATA,
+    },
+    { id: "zanzibar", name: "Zanzibar", active: false },
   ];
 
   const handleMouseEnter = (id: string) => {
@@ -31,7 +53,7 @@ const BannerHeader = () => {
   return (
     <>
       <header className="absolute top-0 left-0 right-0 flex justify-between items-center px-6 md:px-12 py-5 z-10">
-        <motion.a 
+        <motion.a
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
@@ -44,11 +66,11 @@ const BannerHeader = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-8 items-center font-sans">
-          <div className="flex items-center gap-2 mr-10"></div >
+          <div className="flex items-center gap-2 mr-10"></div>
 
           {navLinks.map((link, index) => (
-            <div 
-              key={link.name} 
+            <div
+              key={link.name}
               className="relative"
               onMouseEnter={() => link.hasDropdown && handleMouseEnter(link.id)}
               onMouseLeave={handleMouseLeave}
@@ -60,16 +82,16 @@ const BannerHeader = () => {
                 href="#"
                 className={`text-sm font-medium flex items-center gap-1 transition-colors ${
                   link.active || activeDropdown === link.id
-                    ? "text-[#a57650]"
-                    : "text-muted-grey hover:text-[#a57650]"
+                    ? "text-primary"
+                    : "text-muted-grey hover:text-primary"
                 }`}
               >
                 {link.name}
                 {link.hasDropdown && <span className="text-[10px]">▼</span>}
               </motion.a>
-              
+
               {link.hasDropdown && (
-                <NavDropdown 
+                <NavDropdown
                   title={link.name}
                   data={link.data}
                   isOpen={activeDropdown === link.id}
@@ -81,7 +103,7 @@ const BannerHeader = () => {
         </nav>
 
         <div className="hidden md:flex items-center">
-          <motion.button 
+          <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-transparent border border-muted-grey text-muted-grey px-5 py-2 cursor-pointer rounded text-sm hover:bg-muted-grey hover:text-white transition-all"
@@ -92,8 +114,8 @@ const BannerHeader = () => {
 
         {/* Mobile Hamburger Button */}
         <div className="md:hidden flex items-center">
-          <button 
-            onClick={() => setIsOpen(!isOpen)} 
+          <button
+            onClick={() => setIsOpen(!isOpen)}
             className="text-muted-grey hover:text-earth-tone transition-colors"
           >
             {isOpen ? <HiX size={28} /> : <HiMenuAlt3 size={28} />}
@@ -103,7 +125,7 @@ const BannerHeader = () => {
         {/* Mobile Menu Overlay */}
         <AnimatePresence>
           {isOpen && (
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
@@ -117,15 +139,15 @@ const BannerHeader = () => {
                   onClick={() => setIsOpen(false)}
                   className={`text-sm font-medium flex items-center gap-1 transition-colors ${
                     link.active
-                      ? "text-[#a57650]"
-                      : "text-muted-grey hover:text-[#a57650]"
+                      ? "text-primary"
+                      : "text-muted-grey hover:text-primary"
                   }`}
                 >
                   {link.name}
                   {link.hasDropdown && <span className="text-[10px]">▼</span>}
                 </a>
               ))}
-              <button className="bg-transparent border border la-muted-grey text-muted-grey px-5 py-2 cursor-pointer rounded text-sm hover:bg-muted-grey hover:text-white transition-all">
+              <button className="bg-transparent border la-muted-grey text-muted-grey px-5 py-2 cursor-pointer rounded text-sm hover:bg-muted-grey hover:text-white transition-all">
                 Contact Us
               </button>
             </motion.div>

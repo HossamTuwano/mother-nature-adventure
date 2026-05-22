@@ -5,7 +5,7 @@ import { TREKKING_DATA, MOUNT_KILI_DATA, DESTINATIONS_DATA } from "./navData";
 
 const Navbar: React.FC = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<any>(null);
 
   const navItems = [
     { id: "trekking", label: "Mount Trekking", data: TREKKING_DATA },
