@@ -7,6 +7,8 @@ export interface Route {
   image: string;
 }
 
+const CDN_URL = import.meta.env.VITE_CDN_URL;
+
 export const routesData: Route[] = [
   {
     id: 'marangu',
@@ -14,7 +16,7 @@ export const routesData: Route[] = [
     duration: '5-6 Days',
     difficulty: 'Moderate',
     description: 'The "Coca-Cola" route, known for its comfort and unique huts.',
-    image: 'https://via.placeholder.com/600x400?text=Marangu+Route',
+    image: `${CDN_URL}/src/assets/img/marangu.png`,
   },
   {
     id: 'machame',
@@ -22,7 +24,7 @@ export const routesData: Route[] = [
     duration: '6-7 Days',
     difficulty: 'Hard',
     description: 'The "Whiskey Route", offering stunning scenery and higher success rates.',
-    image: 'https://via.placeholder.com/600x400?text=Machame+Route',
+    image: `${CDN_URL}/src/assets/img/machame.jpg`,
   },
   {
     id: 'lemosho',
@@ -30,7 +32,7 @@ export const routesData: Route[] = [
     duration: '7-8 Days',
     difficulty: 'Hard',
     description: 'A scenic route that starts in the forest and provides a gradual ascent.',
-    image: 'https://via.placeholder.com/600x400?text=Lemosho+Route',
+    image: `${CDN_URL}/src/assets/img/lemosho.jpg`,
   },
   {
     id: 'rongai',
@@ -38,6 +40,6 @@ export const routesData: Route[] = [
     duration: '6-7 Days',
     difficulty: 'Moderate',
     description: 'The driest route, ideal for those wanting to avoid rain.',
-    image: 'https://via.placeholder.com/600x400?text=Rongai+Route',
+    image: `${CDN_URL}/src/assets/img/rongai.png`,
   },
 ];

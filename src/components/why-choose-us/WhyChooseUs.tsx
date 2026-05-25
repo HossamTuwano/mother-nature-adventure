@@ -38,6 +38,7 @@ const FeatureCard: React.FC<FeatureProps> = ({
 };
 
 const WhyChooseUs: React.FC = () => {
+  const CDN_URL = import.meta.env.VITE_CDN_URL;
   const leftFeatures = [
     {
       icon: <FaShieldAlt />,
@@ -120,7 +121,7 @@ const WhyChooseUs: React.FC = () => {
               className="h-full w-full overflow-hidden"
             >
               <img
-                src="/src/assets/img/why-choose-us.jpg"
+                src={`${CDN_URL}/src/assets/img/why-choose-us.jpg`}
                 alt="Adventure Explorer"
                 className="h-full w-full object-cover"
               />

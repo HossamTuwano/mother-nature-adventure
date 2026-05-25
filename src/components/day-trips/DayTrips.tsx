@@ -2,13 +2,15 @@ import React from "react";
 import { motion } from "motion/react";
 import DayTripCard from "./DayTripCard";
 
+const CDN_URL = import.meta.env.VITE_CDN_URL;
+
 const dayTripsData = [
   {
     title: "Hot Spring, Waterfall & Coffee Farm Tour",
     duration: "8 - 13 hours",
     rating: "4.8 (90)",
     price: "From $65",
-    image: "/src/assets/img/chemka.jpg",
+    image: `${CDN_URL}/src/assets/img/chemka.jpg`,
     tags: ["Top Pick", "Pickup Available"],
   },
   {
@@ -16,7 +18,7 @@ const dayTripsData = [
     duration: "7.5 hours",
     rating: "4.8 (53)",
     price: "From $40",
-    image: "/src/assets/img/materuni.jpg",
+    image: `${CDN_URL}/src/assets/img/materuni.jpg`,
     tags: ["Private Option", "Nature"],
   },
   {
@@ -24,7 +26,7 @@ const dayTripsData = [
     duration: "10 hours",
     rating: "4.7 (120)",
     price: "From $180",
-    image: "/src/assets/img/kili-day.JPG",
+    image: `${CDN_URL}/src/assets/img/kili-day.JPG`,
     tags: ["Private Group", "Adventure"],
   },
   {
@@ -32,7 +34,7 @@ const dayTripsData = [
     duration: "3 hours",
     rating: "5.0 (1)",
     price: "From $22",
-    image: "/src/assets/img/moshi.jpg",
+    image: `${CDN_URL}/src/assets/img/moshi.jpg`,
     tags: ["Culture", "City"],
   },
   {
@@ -41,7 +43,7 @@ const dayTripsData = [
     rating: "5.0 (2)",
     price: "From $105",
     image:
-      "/src/assets/img/ngorongoro.jpg",
+      `${CDN_URL}/src/assets/img/ngorongoro.jpg`,
     tags: ["Wildlife", "Safari"],
   },
   {
@@ -49,7 +51,7 @@ const dayTripsData = [
     duration: "7 - 10 hours",
     rating: "4.7 (17)",
     price: "From $90",
-    image: "/src/assets/img/boma.jpg",
+    image: `${CDN_URL}/src/assets/img/boma.jpg`,
     tags: ["Cultural", "Private"],
   },
 ];

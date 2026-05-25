@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "motion/react";
 import RouteCard from "./RouteCard";
 
+const CDN_URL = import.meta.env.VITE_CDN_URL;
+
 const routesData = [
   {
     name: "Machame Route",
@@ -9,7 +11,7 @@ const routesData = [
     difficulty: "Hard",
     description:
       "The most popular route, offering stunning scenery and a good climb rate for acclimatization.",
-    image: "/src/assets/img/kili-1.jpg",
+    image: `${CDN_URL}/src/assets/img/kili-1.jpg`,
   },
   {
     name: "Marangu Route",
@@ -17,7 +19,7 @@ const routesData = [
     difficulty: "Moderate",
     description:
       "The only route with hut accommodations, making it a more comfortable experience.",
-    image: "/src/assets/img/kili-2.jpg",
+    image: `${CDN_URL}/src/assets/img/kili-2.jpg`,
   },
   {
     name: "Lemosho Route",
@@ -25,7 +27,7 @@ const routesData = [
     difficulty: "Moderate",
     description:
       "A more scenic and remote route, providing a gradual ascent for better acclimatization.",
-    image: "/src/assets/img/kili-3.jpg",
+    image: `${CDN_URL}/src/assets/img/kili-3.jpg`,
   },
 ];
 
@@ -36,7 +38,7 @@ const PopularRoutes: React.FC = () => {
       <div
         className="absolute inset-0 -z-10 opacity-20 pointer-events-none"
         style={{
-          backgroundImage: "url(/src/assets/img/popular-kili-routes-bg.png)",
+          backgroundImage: `url(${CDN_URL}/src/assets/img/popular-kili-routes-bg.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

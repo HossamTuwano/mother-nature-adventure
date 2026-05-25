@@ -3,10 +3,12 @@ import {
   FaFacebookF,
   FaInstagram,
   FaTwitter,
-  FaLinkedinIn, FaArrowLeft
+  FaLinkedinIn,
+  FaArrowLeft,
 } from "react-icons/fa";
 
 const Footer = () => {
+  const CDN_URL = import.meta.env.VITE_CDN_URL;
   return (
     <footer className="relative w-full bg-[#1a2f23] text-gray-300 overflow-hidden pt-20 pb-10">
       {/* The Surprise: Animated "Topographic" Background Layer */}
@@ -54,7 +56,11 @@ const Footer = () => {
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-deep-earth rounded-full">
-                <img src="/src/assets/logo.png" className="w-full h-full rounded-full" alt="Logo" />
+                <img
+                  src={`${CDN_URL}/src/assets/logo.png`}
+                  className="w-full h-full rounded-full"
+                  alt="Logo"
+                />
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">
                 Mother Nature <span className="text-primary">Adventures</span>
