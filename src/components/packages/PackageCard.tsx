@@ -4,7 +4,6 @@ import Button from "../ui/Button";
 interface PackageCardProps {
   title: string;
   description: string;
-  price: string;
   features: string[];
   image: string;
 }
@@ -12,7 +11,6 @@ interface PackageCardProps {
 const PackageCard = ({
   title,
   description,
-  price,
   features,
   image,
 }: PackageCardProps) => {

@@ -16,7 +16,6 @@ const DayTripCard: React.FC<DayTripCardProps> = ({
   title,
   duration,
   rating,
-  price,
   image,
   tags,
   index,
