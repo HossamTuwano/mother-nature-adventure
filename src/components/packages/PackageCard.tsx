@@ -47,12 +47,12 @@ const PackageCard = ({
         </div>
 
         <div className="flex items-center justify-between mt-auto">
-          <div className="flex flex-col">
+          {/* <div className="flex flex-col">
             <span className="text-xs text-muted-grey uppercase font-semibold">
               Starting from
             </span>
             <span className="text-2xl font-bold text-primary">${price}</span>
-          </div>
+          </div> */}
           <Button text="View Details" variant="outline" />
         </div>
       </div>

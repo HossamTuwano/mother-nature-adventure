@@ -52,9 +52,9 @@ const DayTripCard: React.FC<DayTripCardProps> = ({
         </div>
 
         {/* Price Tag */}
-        <div className="absolute bottom-4 right-4 z-20 bg-primary text-white px-3 py-1 rounded-lg font-bold text-sm shadow-lg">
+        {/* <div className="absolute bottom-4 right-4 z-20 bg-primary text-white px-3 py-1 rounded-lg font-bold text-sm shadow-lg">
           {price}
-        </div>
+        </div> */}
       </div>
 
       {/* Content Section */}
