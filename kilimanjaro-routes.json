@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "marangu-5-day",
+    "title": "Marangu Route",
+    "duration": "5 Days",
+    "difficulty": "Medium",
+    "difficulty_rating": "Medium",
+    "scenery": "Good",
+    "traffic": "High",
+    "description": "Known as the 'Coca-Cola Route', Marangu is the most popular and affordable route on Kilimanjaro. It features permanent sleeping huts at each campsite and is the only route where ascent and descent share the same path. The shorter duration means less acclimatization time, resulting in a lower summit success rate.",
+    "highlights": [
+      "Only route with permanent sleeping huts",
+      "Shortest and most affordable route",
+      "Passes through rainforest, heathland, moorland, and alpine desert",
+      "Summit night via Gillman's Point to Uhuru Peak"
+    ],
+    "imageSrc": "/assets/img/marangu-0.webp",
+    "features": ["Hut Accommodation", "Budget Friendly", "Popular"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to hotel in Moshi. Evening briefing with mountain guide.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Marangu Gate – Mandara Huts",
+        "description": "Trek begins through rainforest to Mandara Hut. Trail can be muddy and slippery at lower elevations.",
+        "distance_km": 8.3,
+        "distance_mi": 5,
+        "duration_hours": "4-5",
+        "terrain": "Rainforest",
+        "elevation_start_m": 1905,
+        "elevation_start_ft": 6250,
+        "elevation_end_m": 2723,
+        "elevation_end_ft": 8934,
+        "altitude_gained_m": 818,
+        "accommodation": "Mandara Huts"
+      },
+      {
+        "day": 2,
+        "title": "Mandara Huts – Horombo Huts",
+        "description": "Emerge from rainforest into heathland and open moorlands. Stop halfway for lunch with views of Mawenzi.",
+        "distance_km": 11,
+        "distance_mi": 3,
+        "duration_hours": "5-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2740,
+        "elevation_start_ft": 9000,
+        "elevation_end_m": 3720,
+        "elevation_end_ft": 12100,
+        "altitude_gained_m": 980,
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 3,
+        "title": "Horombo Huts – Kibo Huts",
+        "description": "Trek through dwindling heathland into a moonscape across the saddle connecting Mawenzi and Kibo. Rest and hydrate in preparation for summit night.",
+        "distance_km": 10,
+        "distance_mi": 6,
+        "duration_hours": "6-8",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3690,
+        "elevation_start_ft": 12100,
+        "elevation_end_m": 4700,
+        "elevation_end_ft": 15400,
+        "altitude_gained_m": 1010,
+        "accommodation": "Kibo Huts"
+      },
+      {
+        "day": 4,
+        "title": "Kibo Huts – Uhuru Peak – Horombo Huts",
+        "description": "Early start between midnight and 2am. Ascend via switchbacks through heavy scree to Gillman's Point on the crater rim, then on to Uhuru Peak. Descend back to Horombo Huts via Kibo.",
+        "ascent": {
+          "distance_km": 4,
+          "distance_mi": 2.5,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4700,
+          "elevation_start_ft": 15400,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19340,
+          "terrain": "Glaciers, snow-capped summit"
+        },
+        "descent": {
+          "distance_km": 14,
+          "distance_mi": 9,
+          "duration_hours": "5-6",
+          "elevation_start_m": 5895,
+          "elevation_start_ft": 19340,
+          "elevation_end_m": 3720,
+          "elevation_end_ft": 12100
+        },
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 5,
+        "title": "Horombo Huts – Marangu Gate – Moshi",
+        "description": "Descend through Mandara Huts for a rest stop, continuing to Marangu Gate where summit certificates are presented. Transfer back to Moshi.",
+        "distance_km": 18,
+        "distance_mi": 11,
+        "duration_hours": "6-7",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3690,
+        "elevation_start_ft": 12100,
+        "elevation_end_m": 1830,
+        "elevation_end_ft": 6000,
+        "altitude_lost_m": 1860,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money",
+      "Private portable toilet (available at extra cost)"
+    ],
+    "pricing": {
+      "1_person": 1750,
+      "2_3_people": 1653,
+      "4_6_people": 1572,
+      "7_plus_people": 1500,
+      "currency": "USD"
+    },
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "marangu-6-day",
+    "title": "Marangu Route",
+    "duration": "6 Days",
+    "difficulty": "Medium",
+    "scenery": "Good",
+    "traffic": "High",
+    "description": "Known as the 'Coca-Cola Route', the 6-day Marangu offers an extra acclimatization day at Horombo Huts compared to the 5-day version, improving summit success rates. Features permanent sleeping huts throughout and is the only route where ascent and descent share the same path.",
+    "highlights": [
+      "Extra acclimatization day at Horombo Huts",
+      "Only route with permanent sleeping huts",
+      "Passes Gillman's Point to Uhuru Peak on summit night",
+      "Less physical demand due to gradual ascent profile"
+    ],
+    "imageSrc": "/assets/img/marangu-1.jpg",
+    "features": ["Hut Accommodation", "Extra Acclimatization Day", "Popular"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer and overnight in Moshi. Briefing and gear check with head guide.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Marangu Gate – Mandara Huts",
+        "description": "45-minute drive to Marangu Gate. Trek through rainforest on muddy, slippery trails to Mandara Huts.",
+        "distance_km": 8.3,
+        "distance_mi": 5,
+        "duration_hours": "4-5",
+        "terrain": "Rainforest",
+        "elevation_start_m": 1905,
+        "elevation_start_ft": 6250,
+        "elevation_end_m": 2723,
+        "elevation_end_ft": 8934,
+        "altitude_gained_m": 818,
+        "accommodation": "Mandara Huts"
+      },
+      {
+        "day": 2,
+        "title": "Mandara Huts – Horombo Huts",
+        "description": "Ascend through heathland and open moorlands with views of Mawenzi. Arrive at Horombo Huts late afternoon.",
+        "distance_km": 12.5,
+        "distance_mi": 7.8,
+        "duration_hours": "6-8",
+        "terrain": "Moorland",
+        "elevation_start_m": 2723,
+        "elevation_start_ft": 8934,
+        "elevation_end_m": 3721,
+        "elevation_end_ft": 12208,
+        "altitude_gained_m": 998,
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 3,
+        "title": "Horombo Huts – Acclimatization Day",
+        "description": "Rest day at Horombo Huts. Optional stroll to Mawenzi base camp and back. Extra day aids acclimatization before the push to Kibo.",
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 4,
+        "title": "Horombo Huts – Kibo Huts",
+        "description": "Trek through the saddle connecting Mawenzi and Kibo across semi-desert moonscape. Rest and prepare gear for summit night.",
+        "distance_km": 10.5,
+        "distance_mi": 6,
+        "duration_hours": "6-8",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3721,
+        "elevation_start_ft": 12208,
+        "elevation_end_m": 4714,
+        "elevation_end_ft": 15466,
+        "altitude_gained_m": 993,
+        "accommodation": "Kibo Huts"
+      },
+      {
+        "day": 5,
+        "title": "Kibo Huts – Uhuru Peak – Horombo Huts",
+        "description": "Midnight start. Switchback ascent through scree to Gillman's Point then on to Uhuru Peak. Descend to Horombo Huts via Kibo for lunch.",
+        "ascent": {
+          "distance_km": 6.25,
+          "distance_mi": 3.9,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4714,
+          "elevation_start_ft": 15466,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1181
+        },
+        "descent": {
+          "distance_km": 15.75,
+          "distance_mi": 9,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3721,
+          "elevation_end_ft": 12208,
+          "altitude_lost_m": 2174
+        },
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 6,
+        "title": "Horombo Huts – Marangu Gate – Moshi",
+        "description": "Final descent through Mandara Huts. Summit certificates presented at Marangu Gate. Transfer back to Moshi.",
+        "distance_km": 20,
+        "distance_mi": 12.5,
+        "duration_hours": "6-7",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3721,
+        "elevation_start_ft": 12208,
+        "elevation_end_m": 1905,
+        "elevation_end_ft": 6250,
+        "altitude_lost_m": 1816,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 2-3 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (water, soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "umbwe-5-day",
+    "title": "Umbwe Route",
+    "duration": "5 Days",
+    "difficulty": "Very High",
+    "scenery": "Very Good",
+    "traffic": "Very Low",
+    "description": "The steepest and most direct route to the Southern Glaciers, Western Breach, and Uhuru Peak. Widely considered the most challenging non-technical route on Kilimanjaro. Best suited to experienced trekkers who prefer solitude and a fast ascent. Very low traffic makes it one of the most wilderness-like experiences on the mountain.",
+    "highlights": [
+      "Steepest and most challenging route",
+      "Extremely low foot traffic",
+      "Most direct path to Southern Glaciers and Western Breach",
+      "Dense montane forest ridge between two deep valleys"
+    ],
+    "imageSrc": "/assets/img/umbwe-1.jpg",
+    "features": ["Remote", "Challenging", "Experienced Trekkers"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Umbwe Gate – Umbwe Cave",
+        "description": "Drive to Kilimanjaro National Park Gate. Trek through dense montane rainforest along a ridge between two deep valleys. Trail is muddy and slippery — gaiters and trekking poles highly recommended.",
+        "distance_km": 9.6,
+        "distance_mi": 6,
+        "duration_hours": "6-8",
+        "terrain": "Rainforest / Moorland",
+        "elevation_start_m": 1651,
+        "elevation_start_ft": 5417,
+        "elevation_end_m": 2944,
+        "elevation_end_ft": 9659,
+        "altitude_gained_m": 1293,
+        "accommodation": "Umbwe Cave Camp"
+      },
+      {
+        "day": 2,
+        "title": "Umbwe Cave – Barranco Camp",
+        "description": "Steep ascent along the Umbwe ridge with a slight descent into Barranco Camp in the valley. Temperatures begin to drop.",
+        "distance_km": 4.75,
+        "distance_mi": 3,
+        "duration_hours": "4-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2944,
+        "elevation_start_ft": 9659,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 1042,
+        "accommodation": "Barranco Camp"
+      },
+      {
+        "day": 3,
+        "title": "Barranco Camp – Karanga Camp – Barafu Camp",
+        "description": "Steep ascent up the Barranco Wall to Karanga Valley, then continue up to Barafu Camp completing the South Circuit with panoramic summit views. Early dinner and rest before summit night.",
+        "distance_km": 9.2,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 3986,
+        "elevation_start_ft": 13077,
+        "elevation_end_m": 4034,
+        "elevation_end_ft": 13235,
+        "altitude_gained_m": 48,
+        "accommodation": "Barafu Camp"
+      },
+      {
+        "day": 4,
+        "title": "Barafu Camp – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Ascent between Rebmann and Ratzel glaciers via switchbacks to Stella Point then Uhuru Peak. Descend steeply to Mweka Camp via Barafu for lunch.",
+        "ascent": {
+          "distance_km": 4.86,
+          "distance_mi": 3,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4662,
+          "elevation_start_ft": 15295,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1233
+        },
+        "descent": {
+          "distance_km": 11.5,
+          "distance_mi": 7.1,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 5,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Final descent to Mweka Gate. Summit certificates presented. Transfer back to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 5.7,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "umbwe-6-day",
+    "title": "Umbwe Route",
+    "duration": "6 Days",
+    "difficulty": "Very High",
+    "scenery": "Very Good",
+    "traffic": "Very Low",
+    "description": "The 6-day Umbwe offers one extra day over the 5-day version, splitting the Barranco–Barafu section across two days for slightly better acclimatization. Still the steepest and most direct route on Kilimanjaro, best suited to experienced trekkers seeking low traffic and raw wilderness.",
+    "highlights": [
+      "Steepest and most challenging route",
+      "Extra day for improved acclimatization vs 5-day",
+      "Very low foot traffic",
+      "Barranco Wall ascent — one of Kilimanjaro's most dramatic sections"
+    ],
+    "imageSrc": "/assets/img/umbwe-3.jpg",
+    "features": ["Remote", "Challenging", "Experienced Trekkers"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Umbwe Gate – Umbwe Cave",
+        "description": "Drive to Kilimanjaro National Park Gate. Trek through dense montane rainforest along a ridge between two deep valleys.",
+        "distance_km": 9.6,
+        "distance_mi": 6,
+        "duration_hours": "6-8",
+        "terrain": "Rainforest / Moorland",
+        "elevation_start_m": 1651,
+        "elevation_start_ft": 5417,
+        "elevation_end_m": 2944,
+        "elevation_end_ft": 9659,
+        "altitude_gained_m": 1293,
+        "accommodation": "Umbwe Cave Camp"
+      },
+      {
+        "day": 2,
+        "title": "Umbwe Cave – Barranco Camp",
+        "description": "Steep ascent along the Umbwe ridge with a slight descent into Barranco Camp in the valley.",
+        "distance_km": 4.75,
+        "distance_mi": 3,
+        "duration_hours": "4-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2944,
+        "elevation_start_ft": 9659,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 1042,
+        "accommodation": "Barranco Camp"
+      },
+      {
+        "day": 3,
+        "title": "Barranco Camp – Karanga Camp",
+        "description": "Steep ascent up the adventurous Barranco Wall to Karanga Valley. One of the most dramatic days on any Kilimanjaro route.",
+        "distance_km": 5.2,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 3986,
+        "elevation_start_ft": 13077,
+        "elevation_end_m": 4034,
+        "elevation_end_ft": 13235,
+        "altitude_gained_m": 48,
+        "accommodation": "Karanga Camp"
+      },
+      {
+        "day": 4,
+        "title": "Karanga Camp – Barafu Camp",
+        "description": "Continue up to Barafu Camp completing the South Circuit. Panoramic views of the summit from multiple angles. Early dinner and rest before summit night.",
+        "distance_km": 3.3,
+        "distance_mi": 2,
+        "duration_hours": "3-4",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4034,
+        "elevation_start_ft": 13235,
+        "elevation_end_m": 4662,
+        "elevation_end_ft": 15295,
+        "altitude_gained_m": 628,
+        "accommodation": "Barafu Camp"
+      },
+      {
+        "day": 5,
+        "title": "Barafu Camp – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Ascent via switchbacks between glaciers to Stella Point then Uhuru Peak. Descend steeply to Mweka Camp.",
+        "ascent": {
+          "distance_km": 4.86,
+          "distance_mi": 3,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4662,
+          "elevation_start_ft": 15295,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1233
+        },
+        "descent": {
+          "distance_km": 11.5,
+          "distance_mi": 7.1,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 6,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Final descent through rainforest to Mweka Gate. Summit certificates presented. Transfer back to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 5.7,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "machame-6-day",
+    "title": "Machame Route",
+    "duration": "6 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "High",
+    "description": "Known as the 'Whisky Route', Machame is one of the most scenic and popular routes on Kilimanjaro. It passes through magnificent forests, moorland zones, the Shira Plateau, and the dramatic Barranco Wall before reaching the summit via Barafu. A more manageable incline and longer profile give it a higher summit success rate than shorter routes.",
+    "highlights": [
+      "One of the most scenic routes on Kilimanjaro",
+      "Passes the dramatic Barranco Wall",
+      "Crosses the Shira Plateau",
+      "Higher summit success rate due to better acclimatization profile"
+    ],
+    "imageSrc": "/assets/img/machame-0.jpg",
+    "features": ["Scenic", "High Success Rate", "Popular"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Machame Gate – Machame Camp",
+        "description": "45-minute drive to Machame Gate through the Village of Machame. Trek through rainforest on trails that can be muddy and slippery.",
+        "distance_km": 10.75,
+        "distance_mi": 7,
+        "duration_hours": "5-6",
+        "terrain": "Rainforest",
+        "elevation_start_m": 1811,
+        "elevation_start_ft": 5942,
+        "elevation_end_m": 3021,
+        "elevation_end_ft": 9911,
+        "altitude_gained_m": 1210,
+        "accommodation": "Machame Camp"
+      },
+      {
+        "day": 2,
+        "title": "Machame Camp – Shira Camp",
+        "description": "Emerge from rainforest, cross the valley along a steep rocky ridge, then west along a river gorge to Shira campsite.",
+        "distance_km": 5.3,
+        "distance_mi": 3,
+        "duration_hours": "4-5",
+        "terrain": "Moorland",
+        "elevation_start_m": 3021,
+        "elevation_start_ft": 9911,
+        "elevation_end_m": 3839,
+        "elevation_end_ft": 12595,
+        "altitude_gained_m": 818,
+        "accommodation": "Shira Camp"
+      },
+      {
+        "day": 3,
+        "title": "Shira Camp – Lava Tower – Barranco Camp",
+        "description": "Important acclimatization day. Trek east to Lava Tower (Shark's Tooth, 4,650m) before descending to Barranco Camp — classic climb high, sleep low.",
+        "distance_km": 10.75,
+        "distance_mi": 6,
+        "duration_hours": "5-6",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3839,
+        "elevation_start_ft": 12595,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 147,
+        "accommodation": "Barranco Camp"
+      },
+      {
+        "day": 4,
+        "title": "Barranco Camp – Karanga Camp – Barafu Camp",
+        "description": "Ascend the Barranco Wall to Karanga Valley, then continue to Barafu Camp completing the South Circuit. Early dinner before summit night.",
+        "distance_km": 3.3,
+        "distance_mi": 2,
+        "duration_hours": "5-6",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4034,
+        "elevation_start_ft": 13235,
+        "elevation_end_m": 4662,
+        "elevation_end_ft": 15295,
+        "accommodation": "Barafu Camp"
+      },
+      {
+        "day": 5,
+        "title": "Barafu Camp – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Ascent via switchbacks between glaciers to Stella Point then Uhuru Peak. Descend steeply to Mweka Camp.",
+        "ascent": {
+          "distance_km": 4.86,
+          "distance_mi": 3,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4662,
+          "elevation_start_ft": 15295,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1233
+        },
+        "descent": {
+          "distance_km": 13,
+          "distance_mi": 8,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 6,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Descent through rainforest to Mweka Gate. Summit certificates presented. Transfer to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 6,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping tent (3-person for 2 people)", "Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (water, soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money",
+      "Private portable toilet (available for bookings)"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "machame-7-day",
+    "title": "Machame Route",
+    "duration": "7 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "High",
+    "description": "The 7-day Machame — the 'Whisky Route' — splits the Barranco–Barafu section across two days, providing superior acclimatization and the highest success rates on this route. Widely regarded as one of the best Kilimanjaro treks for combining scenery, challenge, and realistic summit chances.",
+    "highlights": [
+      "Best acclimatization profile of the Machame options",
+      "Separate Barranco and Karanga camp days",
+      "Crosses Shira Plateau and passes Lava Tower",
+      "Summit via Stella Point and Uhuru Peak"
+    ],
+    "imageSrc": "/assets/img/machame.jpg",
+    "features": ["Scenic", "High Success Rate", "Best Acclimatization"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Machame Gate – Machame Camp",
+        "description": "45-minute drive to Machame Gate. Trek through rainforest on muddy trails.",
+        "distance_km": 10.75,
+        "distance_mi": 7,
+        "duration_hours": "5-6",
+        "terrain": "Rainforest",
+        "elevation_start_m": 1811,
+        "elevation_start_ft": 5942,
+        "elevation_end_m": 3021,
+        "elevation_end_ft": 9911,
+        "altitude_gained_m": 1210,
+        "accommodation": "Machame Camp"
+      },
+      {
+        "day": 2,
+        "title": "Machame Camp – Shira Camp",
+        "description": "Ascend out of the rainforest across the valley along a steep rocky ridge, turning west along a river gorge to Shira.",
+        "distance_km": 5.3,
+        "distance_mi": 3,
+        "duration_hours": "4-5",
+        "terrain": "Moorland",
+        "elevation_start_m": 3021,
+        "elevation_start_ft": 9911,
+        "elevation_end_m": 3839,
+        "elevation_end_ft": 12595,
+        "altitude_gained_m": 818,
+        "accommodation": "Shira Camp"
+      },
+      {
+        "day": 3,
+        "title": "Shira Camp – Lava Tower – Barranco Camp",
+        "description": "Key acclimatization day. Trek to Lava Tower (Shark's Tooth, 4,650m) then descend to Barranco Camp.",
+        "distance_km": 10.75,
+        "distance_mi": 6,
+        "duration_hours": "5-6",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3839,
+        "elevation_start_ft": 12595,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 147,
+        "accommodation": "Barranco Camp"
+      },
+      {
+        "day": 4,
+        "title": "Barranco Camp – Karanga Camp",
+        "description": "Ascend the Barranco Wall to Karanga Valley. Overnight at Karanga for additional acclimatization.",
+        "distance_km": 5.2,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 3986,
+        "elevation_start_ft": 13077,
+        "elevation_end_m": 4034,
+        "elevation_end_ft": 13235,
+        "altitude_gained_m": 48,
+        "accommodation": "Karanga Camp"
+      },
+      {
+        "day": 5,
+        "title": "Karanga Camp – Barafu Camp",
+        "description": "Short ascent to Barafu Camp, completing the South Circuit. Rest and prepare for summit night.",
+        "distance_km": 3.3,
+        "distance_mi": 2,
+        "duration_hours": "3-4",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4034,
+        "elevation_start_ft": 13235,
+        "elevation_end_m": 4662,
+        "elevation_end_ft": 15295,
+        "altitude_gained_m": 628,
+        "accommodation": "Barafu Camp"
+      },
+      {
+        "day": 6,
+        "title": "Barafu Camp – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Switchback ascent between glaciers to Stella Point then Uhuru Peak. Steep descent to Mweka Camp.",
+        "ascent": {
+          "distance_km": 4.86,
+          "distance_mi": 3,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4662,
+          "elevation_start_ft": 15295,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1233
+        },
+        "descent": {
+          "distance_km": 11.5,
+          "distance_mi": 7.2,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 7,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Descent through rainforest to Mweka Gate. Summit certificates presented. Transfer to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 6,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping tent (3-person for 2 people)", "Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast) at Chanya Lodge"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (water, soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money",
+      "Private portable toilet (available for bookings)"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "rongai-6-day",
+    "title": "Rongai Route",
+    "duration": "6 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "Low",
+    "description": "The only route approaching Kilimanjaro from the north, near the Kenyan border. Remote and less crowded, Rongai offers a unique wilderness experience with possible sightings of antelope, elephant, and buffalo. Descent is via the Marangu Route. Its flatter profile means less natural acclimatization, so the 7-day version is often recommended.",
+    "highlights": [
+      "Only route approaching from the north",
+      "Low traffic with true wilderness feel",
+      "Wildlife sightings possible (antelope, elephant, buffalo)",
+      "Descent via Marangu Route"
+    ],
+    "imageSrc": "/assets/img/rongai-0.jpg",
+    "features": ["Remote", "Wildlife", "Low Traffic"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Nale Muru Gate – Simba Camp",
+        "description": "4–5 hour drive through coffee plantations and Nale Muru village to the park gate. Trek through wooded scenery to Simba Camp near the moorland zone edge, with views of Kenya's plains.",
+        "distance_km": 7,
+        "distance_mi": 5,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 1997,
+        "elevation_start_ft": 6552,
+        "elevation_end_m": 2635,
+        "elevation_end_ft": 8645,
+        "altitude_gained_m": 638,
+        "accommodation": "Simba Camp"
+      },
+      {
+        "day": 2,
+        "title": "Simba Camp – Second Cave Camp",
+        "description": "Consistent ascent through moorland with views of Kibo and first glimpse of the Eastern crater ice fields.",
+        "distance_km": 5.8,
+        "distance_mi": 3.6,
+        "duration_hours": "5-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2635,
+        "elevation_start_ft": 8645,
+        "elevation_end_m": 3487,
+        "elevation_end_ft": 11440,
+        "altitude_gained_m": 852,
+        "accommodation": "Second Cave Camp"
+      },
+      {
+        "day": 3,
+        "title": "Second Cave Camp – Third Cave Camp",
+        "description": "Enter semi-desert terrain. Shorter day bringing you closer to the Eastern ice fields.",
+        "distance_km": 3.3,
+        "distance_mi": 2,
+        "duration_hours": "3-4",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 2635,
+        "elevation_start_ft": 8645,
+        "elevation_end_m": 3936,
+        "elevation_end_ft": 12913,
+        "altitude_gained_m": 449,
+        "accommodation": "Third Cave Camp"
+      },
+      {
+        "day": 4,
+        "title": "Third Cave Camp – Kibo Huts",
+        "description": "Enter Alpine Desert terrain and trek to Kibo Huts just below the crater wall. Merge with the Marangu Route. Prepare gear and rest early before summit attempt.",
+        "distance_km": 6.7,
+        "distance_mi": 4.2,
+        "duration_hours": "4-5",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 3936,
+        "elevation_start_ft": 12913,
+        "elevation_end_m": 5174,
+        "elevation_end_ft": 16975,
+        "altitude_gained_m": 1238,
+        "accommodation": "Kibo Huts"
+      },
+      {
+        "day": 5,
+        "title": "Kibo Huts – Uhuru Peak – Horombo Huts",
+        "description": "Midnight start. Ascent via switchbacks through scree to Stella Point then Uhuru Peak. Descend to Horombo Huts via Kibo for lunch.",
+        "ascent": {
+          "distance_km": 4,
+          "distance_mi": 2.5,
+          "duration_hours": "5-7",
+          "elevation_start_m": 5174,
+          "elevation_start_ft": 16975,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 721
+        },
+        "descent": {
+          "distance_km": 15.75,
+          "distance_mi": 9.8,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3721,
+          "elevation_end_ft": 12208,
+          "altitude_lost_m": 2174
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 6,
+        "title": "Horombo Huts – Marangu Gate – Moshi",
+        "description": "Descend via Marangu Route, stopping at Mandara Huts for lunch. Summit certificates at Marangu Gate. Transfer to Moshi.",
+        "distance_km": 20,
+        "distance_mi": 12.5,
+        "duration_hours": "6-7",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3721,
+        "elevation_start_ft": 12208,
+        "elevation_end_m": 1905,
+        "elevation_end_ft": 6250,
+        "altitude_lost_m": 1816,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping tent (3-person for 2 people)", "Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (water, soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money",
+      "Private portable toilet (available for bookings)"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "rongai-7-day",
+    "title": "Rongai Route",
+    "duration": "7 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "Low",
+    "description": "The 7-day Rongai adds Kikelewa Camp and Mawenzi Tarn to the itinerary, providing significantly better acclimatization on this northern approach. Mawenzi Tarn sits in a spectacular cirque beneath the towering spires of Mawenzi and offers optional acclimatization hikes. Descent is via the Marangu Route.",
+    "highlights": [
+      "Spectacular Mawenzi Tarn camp beneath Mawenzi spires",
+      "Best acclimatization of the Rongai options",
+      "Wildlife sightings possible on northern approach",
+      "Lunar Saddle crossing between Mawenzi and Kibo"
+    ],
+    "imageSrc": "/assets/img/rongai-2.jpg",
+    "features": ["Remote", "Wildlife", "Best Acclimatization"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Nale Muru Gate – Simba Camp",
+        "description": "4–5 hour drive through coffee plantations. Trek through wooded scenery to Simba Camp with views of Kenya's plains.",
+        "distance_km": 7,
+        "distance_mi": 5,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 1997,
+        "elevation_start_ft": 6552,
+        "elevation_end_m": 2635,
+        "elevation_end_ft": 8645,
+        "altitude_gained_m": 638,
+        "accommodation": "Simba Camp"
+      },
+      {
+        "day": 2,
+        "title": "Simba Camp – Second Cave Camp",
+        "description": "Consistent ascent through moorland with views of Kibo and the Eastern crater ice fields.",
+        "distance_km": 5.8,
+        "distance_mi": 3.6,
+        "duration_hours": "5-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2635,
+        "elevation_start_ft": 8645,
+        "elevation_end_m": 3487,
+        "elevation_end_ft": 11440,
+        "altitude_gained_m": 852,
+        "accommodation": "Second Cave Camp"
+      },
+      {
+        "day": 3,
+        "title": "Second Cave Camp – Kikelewa Camp",
+        "description": "Steady ascent across moorland towards the jagged peaks of Mawenzi.",
+        "distance_km": 5.95,
+        "distance_mi": 3.7,
+        "duration_hours": "2-3",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3487,
+        "elevation_start_ft": 11440,
+        "elevation_end_m": 3675,
+        "elevation_end_ft": 12057,
+        "altitude_gained_m": 188,
+        "accommodation": "Kikelewa Camp"
+      },
+      {
+        "day": 4,
+        "title": "Kikelewa Camp – Mawenzi Tarn",
+        "description": "Short but steep climb to Mawenzi Tarn, spectacularly situated in a cirque beneath the spires of Mawenzi. Afternoon free to rest or explore for acclimatization.",
+        "distance_km": 3.75,
+        "distance_mi": 2.3,
+        "duration_hours": "3-4",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3487,
+        "elevation_start_ft": 11440,
+        "elevation_end_m": 4302,
+        "elevation_end_ft": 14114,
+        "altitude_gained_m": 627,
+        "accommodation": "Mawenzi Tarn"
+      },
+      {
+        "day": 5,
+        "title": "Mawenzi Tarn – Kibo Hut",
+        "description": "Cross the lunar desert Saddle between Mawenzi and Kibo. Rest at Kibo Hut in preparation for summit night.",
+        "distance_km": 8.9,
+        "distance_mi": 5,
+        "duration_hours": "4-5",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4302,
+        "elevation_start_ft": 14114,
+        "elevation_end_m": 4714,
+        "elevation_end_ft": 15466,
+        "altitude_gained_m": 412,
+        "accommodation": "Kibo Hut"
+      },
+      {
+        "day": 6,
+        "title": "Kibo Huts – Uhuru Peak – Horombo Huts",
+        "description": "Midnight start. Ascent via switchbacks through scree to Stella Point then Uhuru Peak. Descend to Horombo Huts via Kibo for lunch.",
+        "ascent": {
+          "distance_km": 4,
+          "distance_mi": 2.5,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4302,
+          "elevation_start_ft": 14114,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 721
+        },
+        "descent": {
+          "distance_km": 15.75,
+          "distance_mi": 9.8,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3721,
+          "elevation_end_ft": 12208,
+          "altitude_lost_m": 2174
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Horombo Huts"
+      },
+      {
+        "day": 7,
+        "title": "Horombo Huts – Marangu Gate – Moshi",
+        "description": "Descent via Marangu Route, stopping at Mandara Huts for lunch. Summit certificates at Marangu Gate. Transfer to Moshi.",
+        "distance_km": 20,
+        "distance_mi": 12.5,
+        "duration_hours": "6-7",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3721,
+        "elevation_start_ft": 12208,
+        "elevation_end_m": 1905,
+        "elevation_end_ft": 6250,
+        "altitude_lost_m": 1816,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping tent (3-person for 2 people)", "Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (water, soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money",
+      "Private portable toilet (available for bookings)"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "lemosho-7-day",
+    "title": "Lemosho Route",
+    "duration": "7 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "High",
+    "description": "A newer, more remote and scenic route starting from the western side of Kilimanjaro at Londorossi Gate. Passes through beautiful forests and moorlands before crossing the Shira Plateau and joining the Machame Route at Lava Tower. Wildlife including buffalo and elephant may be spotted in the early stages. Longer duration allows excellent acclimatization and high summit success rates.",
+    "highlights": [
+      "Remote western approach with possible wildlife sightings",
+      "Crosses the Shira Plateau — one of Earth's highest plateaus",
+      "Passes Lava Tower (Shark's Tooth) at 4,650m",
+      "High summit success rate due to gradual ascent"
+    ],
+    "imageSrc": "/assets/img/lemosho-1.jpg",
+    "features": ["Scenic", "Remote Start", "High Success Rate"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Lemosho Gate – Mti Mkubwa Camp",
+        "description": "45-minute drive to Kilimanjaro National Park Gate. Trek through rainforest to Mti Mkubwa (Big Tree) Camp.",
+        "distance_km": 4.8,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 2389,
+        "elevation_start_ft": 7838,
+        "elevation_end_m": 2785,
+        "elevation_end_ft": 9137,
+        "altitude_gained_m": 396,
+        "accommodation": "Mti Mkubwa Camp"
+      },
+      {
+        "day": 2,
+        "title": "Mti Mkubwa Camp – Shira 2 Camp",
+        "description": "Leave the forest, climbing steadily with wide views to the rim of the Shira Plateau and on to Shira 2 Camp.",
+        "distance_km": 17,
+        "distance_mi": 5,
+        "duration_hours": "6-8",
+        "terrain": "Moorland",
+        "elevation_start_m": 2785,
+        "elevation_start_ft": 9137,
+        "elevation_end_m": 3895,
+        "elevation_end_ft": 12779,
+        "altitude_gained_m": 1110,
+        "accommodation": "Shira 2 Camp"
+      },
+      {
+        "day": 3,
+        "title": "Shira 2 Camp – Lava Tower – Barranco Camp",
+        "description": "Key acclimatization day. Trek east to Lava Tower (4,650m) then descend to Barranco Camp — classic climb high, sleep low.",
+        "distance_km": 10.1,
+        "distance_mi": 6,
+        "duration_hours": "5-7",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3895,
+        "elevation_start_ft": 12779,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 91,
+        "accommodation": "Barranco Camp"
+      },
+      {
+        "day": 4,
+        "title": "Barranco Camp – Karanga Camp",
+        "description": "Ascend the Barranco Wall to Karanga Valley. Overnight at Karanga for acclimatization.",
+        "distance_km": 5.2,
+        "distance_mi": 3,
+        "duration_hours": "4-5",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 3986,
+        "elevation_start_ft": 13077,
+        "elevation_end_m": 4034,
+        "elevation_end_ft": 13253,
+        "altitude_gained_m": 48,
+        "accommodation": "Karanga Camp"
+      },
+      {
+        "day": 5,
+        "title": "Karanga Camp – Barafu Camp",
+        "description": "Ascend to Barafu Camp completing the South Circuit. Panoramic summit views. Rest before summit night.",
+        "distance_km": 3.3,
+        "distance_mi": 2,
+        "duration_hours": "4-5",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4034,
+        "elevation_start_ft": 13253,
+        "elevation_end_m": 4662,
+        "elevation_end_ft": 15295,
+        "altitude_gained_m": 628,
+        "accommodation": "Barafu Camp"
+      },
+      {
+        "day": 6,
+        "title": "Barafu Camp – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Switchback ascent between glaciers to Stella Point then Uhuru Peak. Steep descent to Mweka Camp.",
+        "ascent": {
+          "distance_km": 5,
+          "distance_mi": 3,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4662,
+          "elevation_start_ft": 15295,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1233
+        },
+        "descent": {
+          "distance_km": 11.5,
+          "distance_mi": 8,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 7,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Descent through rainforest to Mweka Gate. Summit certificates presented. Transfer to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 5.7,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "lemosho-8-day",
+    "title": "Lemosho Route",
+    "duration": "8 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "High",
+    "description": "The 8-day Lemosho adds a full Shira Plateau exploration day and a separate Shira 1 to Shira 2 stage, making it the most thorough acclimatization version of this already excellent route. Starts on Kilimanjaro's western side, passes through rainforest, moorland, and the Shira Plateau before joining the Southern Circuit to Barafu and the summit.",
+    "highlights": [
+      "Full day exploring the Shira Plateau — one of Earth's highest",
+      "Best acclimatization of the Lemosho options",
+      "Wildlife possible in early rainforest stages",
+      "Separate Shira 1 and Shira 2 camp stages"
+    ],
+    "imageSrc": "/assets/img/lemosho.jpg",
+    "features": ["Scenic", "Best Acclimatization", "Remote Start"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Lemosho Gate – Mti Mkubwa Camp",
+        "description": "Drive to park gate. Trek through rainforest to Mti Mkubwa (Big Tree) Camp.",
+        "distance_km": 4.8,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 2389,
+        "elevation_start_ft": 7838,
+        "elevation_end_m": 2785,
+        "elevation_end_ft": 9137,
+        "altitude_gained_m": 396,
+        "accommodation": "Mti Mkubwa Camp"
+      },
+      {
+        "day": 2,
+        "title": "Mti Mkubwa Camp – Shira 1 Camp",
+        "description": "Leave the rainforest. Steady climb with wide views to the rim of the Shira Plateau and on to Shira 1 Camp.",
+        "distance_km": 7.9,
+        "distance_mi": 5,
+        "duration_hours": "4-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2785,
+        "elevation_start_ft": 9137,
+        "elevation_end_m": 3504,
+        "elevation_end_ft": 11496,
+        "altitude_gained_m": 719,
+        "accommodation": "Shira 1 Camp"
+      },
+      {
+        "day": 3,
+        "title": "Shira 1 Camp – Shira 2 Camp",
+        "description": "Explore the Shira Plateau — one of the highest plateaus on Earth. Gentle walk east across moorland meadows to Shira 2 Camp.",
+        "distance_km": 6.9,
+        "distance_mi": 4.3,
+        "duration_hours": "5-7",
+        "terrain": "Moorland",
+        "elevation_start_m": 3504,
+        "elevation_start_ft": 11496,
+        "elevation_end_m": 3895,
+        "elevation_end_ft": 12779,
+        "altitude_gained_m": 391,
+        "accommodation": "Shira 2 Camp"
+      },
+      {
+        "day": 4,
+        "title": "Shira 2 Camp – Lava Tower – Barranco Camp",
+        "description": "Key acclimatization day. Trek east to Lava Tower (Shark's Tooth, 4,650m) then descend to Barranco Camp.",
+        "distance_km": 10.1,
+        "distance_mi": 6.3,
+        "duration_hours": "4-6",
+        "terrain": "Semi-desert",
+        "elevation_start_m": 3895,
+        "elevation_start_ft": 12779,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 91,
+        "accommodation": "Barranco Camp"
+      },
+      {
+        "day": 5,
+        "title": "Barranco Camp – Karanga Camp",
+        "description": "Ascend the Barranco Wall to Karanga Valley.",
+        "distance_km": 5.2,
+        "distance_mi": 3,
+        "duration_hours": "4-5",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 3986,
+        "elevation_start_ft": 13077,
+        "elevation_end_m": 4034,
+        "elevation_end_ft": 13235,
+        "altitude_gained_m": 48,
+        "accommodation": "Karanga Camp"
+      },
+      {
+        "day": 6,
+        "title": "Karanga Camp – Barafu Camp",
+        "description": "Ascend to Barafu Camp completing the South Circuit. Rest and prepare for summit night.",
+        "distance_km": 3.3,
+        "distance_mi": 2,
+        "duration_hours": "4-5",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4034,
+        "elevation_start_ft": 13235,
+        "elevation_end_m": 4662,
+        "elevation_end_ft": 15295,
+        "altitude_gained_m": 628,
+        "accommodation": "Barafu Camp"
+      },
+      {
+        "day": 7,
+        "title": "Barafu Camp – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Switchback ascent between glaciers to Stella Point then Uhuru Peak. Steep descent to Mweka Camp.",
+        "ascent": {
+          "distance_km": 5,
+          "distance_mi": 3,
+          "duration_hours": "5-7",
+          "elevation_start_m": 4662,
+          "elevation_start_ft": 15295,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1233
+        },
+        "descent": {
+          "distance_km": 13,
+          "distance_mi": 8,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 8,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Final descent through rainforest to Mweka Gate. Summit certificates. Transfer to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 6,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "northern-circuit-8-day",
+    "title": "Northern Circuit",
+    "duration": "8 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "Low",
+    "description": "The longest route on Kilimanjaro and one of the best, offering nearly 360 degrees of scenery including the rarely visited northern slopes. The route approaches from the west at Lemosho Gate, crosses the Shira Plateau, then circles clockwise around the north of Kibo via Moir Hut and Buffalo Camp before summiting from the east via School Hut. Highest overall summit success rate of any route.",
+    "highlights": [
+      "Nearly 360-degree scenic circuit around Kilimanjaro",
+      "Rarely visited northern slopes — very low traffic",
+      "Highest summit success rate on the mountain",
+      "Summit from the east via School Hut — unique perspective"
+    ],
+    "imageSrc": "/assets/img/nc-1.jpg",
+    "features": ["360° Scenery", "Highest Success Rate", "Remote"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Lemosho Gate – Mti Mkubwa Camp",
+        "description": "Drive approximately 2 hours to Londorossi Gate. Trek through rainforest to Mti Mkubwa Camp. Wildlife possible including elephant and buffalo.",
+        "distance_km": 4.8,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_end_m": 2785,
+        "elevation_end_ft": 9137,
+        "altitude_gained_m": 396,
+        "accommodation": "Mti Mkubwa Camp"
+      },
+      {
+        "day": 2,
+        "title": "Mti Mkubwa Camp – Shira 1 Camp",
+        "description": "Through the last rainforest section into low alpine moorland, climbing to Shira Plateau and Shira 1 Camp.",
+        "distance_km": 7.9,
+        "distance_mi": 5,
+        "duration_hours": "5-6",
+        "terrain": "Rainforest / Low Alpine Zone",
+        "elevation_start_m": 2785,
+        "elevation_start_ft": 9137,
+        "elevation_end_m": 3504,
+        "elevation_end_ft": 11496,
+        "altitude_gained_m": 719,
+        "accommodation": "Shira 1 Camp"
+      },
+      {
+        "day": 3,
+        "title": "Shira 1 – Moir Hut",
+        "description": "Long trek east through the Garden of the Seneca into high alpine desert. Reach Lava Tower (Shark's Tooth, 4,600m) for lunch then descend to Moir Camp — classic climb high, sleep low acclimatization.",
+        "distance_km": 9.8,
+        "distance_mi": 6.1,
+        "duration_hours": "5-7",
+        "terrain": "Low alpine / High alpine",
+        "elevation_end_m": 4161,
+        "elevation_end_ft": 13651,
+        "altitude_gained_m": 657,
+        "accommodation": "Moir Hut"
+      },
+      {
+        "day": 4,
+        "title": "Moir Camp – Buffalo Camp",
+        "description": "Moderately steep climb out of Moir Valley. Optional detour to Little Lent Hill summit (4,375m). Route skirts the northern Kibo slopes with spectacular views toward the Kenya/Tanzania border plains.",
+        "distance_km": 9.2,
+        "distance_mi": 5.8,
+        "duration_hours": "5-7",
+        "terrain": "High alpine",
+        "elevation_start_m": 4155,
+        "elevation_start_ft": 13632,
+        "elevation_end_m": 4033,
+        "elevation_end_ft": 13232,
+        "altitude_lost_m": 122,
+        "accommodation": "Buffalo Camp"
+      },
+      {
+        "day": 5,
+        "title": "Buffalo Camp – Rongai Third Cave",
+        "description": "Climb Buffalo ridge then down into Pofu Camp for lunch. Continue east around the northern slopes to Rongai Third Cave.",
+        "distance_km": 6.8,
+        "distance_mi": 4.3,
+        "duration_hours": "5-7",
+        "terrain": "High alpine / Low alpine",
+        "elevation_start_m": 4033,
+        "elevation_start_ft": 13232,
+        "elevation_end_m": 3936,
+        "elevation_end_ft": 12193,
+        "altitude_lost_m": 97,
+        "accommodation": "Rongai Third Cave"
+      },
+      {
+        "day": 6,
+        "title": "Rongai Third Cave – School Hut",
+        "description": "Steady ascent over the Saddle between Kibo and Mawenzi then southwest to School Hut. Early dinner and rest before midnight summit start.",
+        "distance_km": 4.8,
+        "distance_mi": 3,
+        "duration_hours": "4-5",
+        "terrain": "High alpine / Glacial",
+        "elevation_start_m": 3936,
+        "elevation_start_ft": 12913,
+        "elevation_end_m": 4717,
+        "elevation_end_ft": 15476,
+        "altitude_gained_m": 781,
+        "accommodation": "School Hut"
+      },
+      {
+        "day": 7,
+        "title": "School Hut – Uhuru Peak – Millennium Camp",
+        "description": "Midnight start. Switchback ascent via scree to Stella Point then Uhuru Peak. Descend to Millennium Camp via Barafu for lunch.",
+        "ascent": {
+          "distance_km": 5.9,
+          "distance_mi": 3.7,
+          "duration_hours": "6-8",
+          "altitude_gained_m": 1178
+        },
+        "descent": {
+          "distance_km": 8.4,
+          "distance_mi": 5.2,
+          "duration_hours": "4-6",
+          "elevation_end_m": 3827,
+          "elevation_end_ft": 12556,
+          "altitude_lost_m": 2068
+        },
+        "terrain": "Glacial zone",
+        "summit_elevation_m": 5895,
+        "summit_elevation_ft": 19341,
+        "accommodation": "Millennium Camp"
+      },
+      {
+        "day": 8,
+        "title": "Millennium Camp – Mweka Gate – Moshi",
+        "description": "Descent through rainforest to Mweka Gate. Summit certificates presented. Transfer to Moshi.",
+        "distance_km": 12.2,
+        "distance_mi": 7.6,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3827,
+        "elevation_start_ft": 12556,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 2194,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "northern-circuit-9-day",
+    "title": "Northern Circuit",
+    "duration": "9 Days",
+    "difficulty": "Medium",
+    "scenery": "Excellent",
+    "traffic": "Low",
+    "description": "The most comprehensive Kilimanjaro experience available. The 9-day Northern Circuit adds a full Shira 2 stage and separate Moir camp day, providing the best possible acclimatization on the mountain. Circles nearly 360 degrees around Kilimanjaro including the remote northern slopes, before a final push to Uhuru Peak via School Hut. The highest recommended summit success rate of any route.",
+    "highlights": [
+      "Most comprehensive circuit of Kilimanjaro available",
+      "Best acclimatization profile of all routes",
+      "Full Shira Plateau crossing with Shira 1 and Shira 2 camps",
+      "Rarely visited northern slopes"
+    ],
+    "imageSrc": "/assets/img/nc-2.jpg",
+    "features": ["360° Scenery", "Highest Success Rate", "Best Acclimatization"],
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Arrival",
+        "description": "Arrival at Kilimanjaro International Airport, transfer to Moshi. Briefing, gear check and equipment hire arrangements.",
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 1,
+        "title": "Lemosho Gate – Mti Mkubwa Camp",
+        "description": "45-minute drive to park gate through mountainside villages. Trek through rainforest to Mti Mkubwa Camp.",
+        "distance_km": 4.8,
+        "distance_mi": 3,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 2389,
+        "elevation_start_ft": 7838,
+        "elevation_end_m": 2785,
+        "elevation_end_ft": 9137,
+        "altitude_gained_m": 396,
+        "accommodation": "Mti Mkubwa Camp"
+      },
+      {
+        "day": 2,
+        "title": "Mti Mkubwa Camp – Shira 1 Camp",
+        "description": "Leave the rainforest and climb steadily with wide views to the Shira Plateau rim and on to Shira 1 Camp.",
+        "distance_km": 7.9,
+        "distance_mi": 5,
+        "duration_hours": "4-6",
+        "terrain": "Moorland",
+        "elevation_start_m": 2785,
+        "elevation_start_ft": 9137,
+        "elevation_end_m": 3504,
+        "elevation_end_ft": 11496,
+        "altitude_gained_m": 719,
+        "accommodation": "Shira 1 Camp"
+      },
+      {
+        "day": 3,
+        "title": "Shira 1 Camp – Shira 2 Camp",
+        "description": "Cross the Shira Plateau — one of Earth's highest — from Shira 1 to Shira 2 Camp on moorland meadows.",
+        "distance_km": 6.9,
+        "distance_mi": 4,
+        "duration_hours": "3-4",
+        "terrain": "Low Alpine",
+        "elevation_start_m": 3504,
+        "elevation_start_ft": 11496,
+        "elevation_end_m": 3895,
+        "elevation_end_ft": 12779,
+        "altitude_gained_m": 391,
+        "accommodation": "Shira 2 Camp"
+      },
+      {
+        "day": 4,
+        "title": "Shira 2 Camp – Lava Tower – Moir Hut",
+        "description": "Trek east to Lava Tower (Shark's Tooth, 4,650m) for acclimatization then join the Northern Circuit descending to Moir Hut.",
+        "distance_km": 17.7,
+        "distance_mi": 11.1,
+        "duration_hours": "5-7",
+        "terrain": "High Alpine",
+        "elevation_start_m": 3895,
+        "elevation_start_ft": 12779,
+        "elevation_end_m": 3986,
+        "elevation_end_ft": 13077,
+        "altitude_gained_m": 91,
+        "accommodation": "Moir Hut"
+      },
+      {
+        "day": 5,
+        "title": "Moir Camp – Buffalo Camp",
+        "description": "Moderately steep climb out of Moir Valley with optional detour to Little Lent Hill. Route skirts northern Kibo slopes with panoramic views to Kenya.",
+        "distance_km": 9.2,
+        "distance_mi": 5.7,
+        "duration_hours": "5-7",
+        "terrain": "High Alpine",
+        "elevation_start_m": 4155,
+        "elevation_start_ft": 13632,
+        "elevation_end_m": 4033,
+        "elevation_end_ft": 13232,
+        "altitude_lost_m": 122,
+        "accommodation": "Buffalo Camp"
+      },
+      {
+        "day": 6,
+        "title": "Buffalo Camp – Rongai Third Cave",
+        "description": "Climb Buffalo ridge, down to Pofu Camp for lunch, continue east around the northern slopes to Rongai Third Cave.",
+        "distance_km": 6.8,
+        "distance_mi": 4.3,
+        "duration_hours": "5-7",
+        "terrain": "Alpine Desert",
+        "elevation_start_m": 4033,
+        "elevation_start_ft": 13232,
+        "elevation_end_m": 3936,
+        "elevation_end_ft": 12193,
+        "altitude_lost_m": 97,
+        "accommodation": "Rongai Third Cave"
+      },
+      {
+        "day": 7,
+        "title": "Third Cave – School Hut",
+        "description": "Steady ascent over the Saddle between Kibo and Mawenzi, then southwest to School Hut. Early dinner and rest before midnight summit start.",
+        "distance_km": 4.8,
+        "distance_mi": 3,
+        "duration_hours": "5-7",
+        "terrain": "Glacial Zone",
+        "elevation_start_m": 3936,
+        "elevation_start_ft": 12913,
+        "elevation_end_m": 4717,
+        "elevation_end_ft": 15476,
+        "altitude_gained_m": 781,
+        "accommodation": "School Hut"
+      },
+      {
+        "day": 8,
+        "title": "School Hut – Uhuru Peak – Mweka Camp",
+        "description": "Midnight start. Switchback ascent via scree to Stella Point then Uhuru Peak. Descend steeply to Mweka Camp via Barafu for lunch.",
+        "ascent": {
+          "distance_km": 5.9,
+          "distance_mi": 3.7,
+          "duration_hours": "6-8",
+          "elevation_start_m": 4717,
+          "elevation_start_ft": 15476,
+          "elevation_end_m": 5895,
+          "elevation_end_ft": 19341,
+          "altitude_gained_m": 1178
+        },
+        "descent": {
+          "distance_km": 13,
+          "distance_mi": 8,
+          "duration_hours": "5-6",
+          "elevation_end_m": 3106,
+          "elevation_end_ft": 10190,
+          "altitude_lost_m": 2789
+        },
+        "terrain": "Glaciers, snow-capped summit",
+        "accommodation": "Mweka Camp"
+      },
+      {
+        "day": 9,
+        "title": "Mweka Camp – Mweka Gate – Moshi",
+        "description": "Descent through rainforest to Mweka Gate. Summit certificates presented. Transfer to Moshi.",
+        "distance_km": 9.1,
+        "distance_mi": 6,
+        "duration_hours": "3-4",
+        "terrain": "Rainforest",
+        "elevation_start_m": 3106,
+        "elevation_start_ft": 10190,
+        "elevation_end_m": 1633,
+        "elevation_end_ft": 5358,
+        "altitude_lost_m": 1473,
+        "accommodation": "Chanya Lodge, Moshi"
+      },
+      {
+        "day": 10,
+        "title": "Departure",
+        "description": "Transfer to Kilimanjaro International Airport."
+      }
+    ],
+    "included": {
+      "crew": ["Lead guide", "Assistant guide (2+ people)", "Cook", "Porters (ratio 3-4 per client)", "English speaking and Wilderness First Responder trained"],
+      "equipment": ["Sleeping mat (2-inch foam)", "Pillow", "Walk-in dining tent and table", "Backed chairs", "Wash basins with hot water morning and evening"],
+      "food_and_drink": ["Three meals per day", "Afternoon snack", "Treated drinking water (minimum 3L/day)", "Coffee and tea", "Vegetarian, vegan and gluten-free on request"],
+      "health_and_safety": ["Pulse oximeter", "Altitude sickness checklists", "First aid kit", "Emergency oxygen"],
+      "fees": ["Kilimanjaro National Park fees and VAT", "Camping/hut, rescue, conservation fees and taxes", "Fair crew wages", "Pre-trek briefing"],
+      "accommodation_and_transfers": ["Round-trip airport transfer (JRO–Moshi)", "Round-trip transfer Moshi to park gate", "2 hotel nights in Moshi (bed and breakfast)"]
+    },
+    "excluded": [
+      "Gratuities/tips",
+      "Personal trekking gear (sleeping bag, clothing)",
+      "Beverages (soda and alcohol at hotels)",
+      "Additional accommodation from early descent",
+      "Tanzania entry visa",
+      "Travel insurance",
+      "Flights",
+      "Personal expenses",
+      "Hire gear (trekking poles, sleeping bags)",
+      "Souvenir spending money"
+    ],
+    "tipping_guide": {
+      "lead_guide_per_day": 20,
+      "assistant_guide_per_day": 15,
+      "cook_per_day": 12,
+      "porter_per_day": 8,
+      "currency": "USD"
+    }
+  }
+]

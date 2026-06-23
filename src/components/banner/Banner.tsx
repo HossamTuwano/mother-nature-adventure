@@ -1,6 +1,6 @@
-import BannerHeader from "./BannerHeader";
 import BannerHero from "./BannerHero";
 import BannerCTA from "./BannerCTA";
+import BannerHeader from "./BannerHeader";
 
 const Banner = () => {
   const CDN_URL = import.meta.env.VITE_CDN_URL;

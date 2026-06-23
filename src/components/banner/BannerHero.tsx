@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 const BannerHero = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center text-deep-charcoal font-sans max-w-4xl mx-auto px-4 bg-[url(../../assets/img/banner.png)] bg-cover bg-center">
+    <div className="flex flex-col items-center justify-center text-center text-deep-charcoal font-sans max-w-4xl mx-auto px-4">
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

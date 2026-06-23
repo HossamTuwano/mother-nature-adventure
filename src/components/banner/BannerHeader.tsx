@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { motion, AnimatePresence } from "motion/react";
 import logo from "../../assets/logo.png";
@@ -12,8 +12,8 @@ import {
 const BannerHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-
-  const navLinks = [
+  const timeoutRef = useRef<any>(null);
+  const navItems = [
     { id: "home", name: "Home", active: true },
     { id: "safaris", name: "Safaris", active: false },
     {
@@ -41,11 +41,12 @@ const BannerHeader = () => {
   ];
 
   const handleMouseEnter = (id: string) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setActiveDropdown(id);
   };
 
   const handleMouseLeave = () => {
-    setTimeout(() => {
+    timeoutRef.current = setTimeout(() => {
       setActiveDropdown(null);
     }, 150);
   };
@@ -65,41 +66,55 @@ const BannerHeader = () => {
         </motion.a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-8 items-center font-sans">
-          <div className="flex items-center gap-2 mr-10"></div>
-
-          {navLinks.map((link, index) => (
-            <div
-              key={link.name}
-              className="relative"
-              onMouseEnter={() => link.hasDropdown && handleMouseEnter(link.id)}
-              onMouseLeave={handleMouseLeave}
-            >
-              <motion.a
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 0.1 * index }}
-                href="#"
-                className={`text-sm font-medium flex items-center gap-1 transition-colors ${
-                  link.active || activeDropdown === link.id
-                    ? "text-primary"
-                    : "text-muted-grey hover:text-primary"
-                }`}
+        <nav 
+          className="hidden md:flex gap-8 items-center font-sans relative"
+          onMouseLeave={handleMouseLeave}
+        >
+          <div className="flex items-center gap-8 mr-10">
+            {navItems.map((item) => (
+              <div
+                key={item.id}
+                className="relative"
+                onMouseEnter={() => {
+                  if (item.hasDropdown) {
+                    handleMouseEnter(item.id);
+                  } else {
+                    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+                    setActiveDropdown(null);
+                  }
+                }}
               >
-                {link.name}
-                {link.hasDropdown && <span className="text-[10px]">▼</span>}
-              </motion.a>
+                <a
+                  href={item.id === "home" ? "#" : `#/${item.id}`}
+                  className={`text-sm font-medium transition-colors py-2 flex items-center gap-1 cursor-pointer ${
+                    activeDropdown === item.id || item.active
+                      ? "text-primary"
+                      : "text-muted-grey hover:text-primary"
+                  }`}
+                >
+                  {item.name}
+                  {item.hasDropdown && <span className="text-[10px]">▼</span>}
+                </a>
+              </div>
+            ))}
+          </div>
 
-              {link.hasDropdown && (
-                <NavDropdown
-                  title={link.name}
-                  data={link.data}
-                  isOpen={activeDropdown === link.id}
-                  onClose={() => setActiveDropdown(null)}
-                />
-              )}
-            </div>
-          ))}
+          <div
+            className="absolute top-full left-1/2 -translate-x-1/2 w-full flex justify-center pointer-events-none"
+            onMouseEnter={() => {
+              if (timeoutRef.current) clearTimeout(timeoutRef.current);
+            }}
+            onMouseLeave={handleMouseLeave}
+          >
+            <NavDropdown
+              data={
+                navItems.find((item) => item.id === activeDropdown)?.data || []
+              }
+              isOpen={activeDropdown !== null}
+              onClose={() => setActiveDropdown(null)}
+              title={""}
+            />
+          </div>
         </nav>
 
         <div className="hidden md:flex items-center">
@@ -132,7 +147,7 @@ const BannerHeader = () => {
               transition={{ duration: 0.3, ease: "easeInOut" }}
               className="absolute top-full left-0 right-0 bg-white shadow-lg flex flex-col items-center py-6 gap-6 md:hidden overflow-hidden"
             >
-              {navLinks.map((link) => (
+              {navItems.map((link) => (
                 <a
                   key={link.name}
                   href="#"

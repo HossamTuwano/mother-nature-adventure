@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import { useNavigate } from "react-router";
 import RouteCard from "./RouteCard";
 
 const CDN_URL = import.meta.env.VITE_CDN_URL;
@@ -32,6 +33,7 @@ const routesData = [
 ];
 
 const PopularRoutes: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative py-20 px-6 w-full overflow-hidden">
       {/* Background Pattern Container */}
@@ -66,6 +68,9 @@ const PopularRoutes: React.FC = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              navigate("/routes");
+            }}
             className="px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-[#8e6343] transition-colors shadow-lg"
           >
             View All Routes
